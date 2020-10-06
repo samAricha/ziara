@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "272750928637",
+    "firebase_url": "https://campziara-bbc24.firebaseio.com",
+    "project_id": "campziara-bbc24",
+    "storage_bucket": "campziara-bbc24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272750928637:android:b4e685c8749da823a25494",
+        "android_client_info": {
+          "package_name": "com.CamperGlobe.CampZiara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272750928637-vfvmlb036m54lnivacjtkl4g426a4bdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.CamperGlobe.CampZiara",
+            "certificate_hash": "06db897496bfdc2f0d957e9b2cf2137f42aa432f"
+          }
+        },
+        {
+          "client_id": "272750928637-c3n074v4jvoi01o92cbre8k52l2ptqvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6HIZK5r9zl4MickqJ26z2m8w5GhJdSiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272750928637-c3n074v4jvoi01o92cbre8k52l2ptqvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

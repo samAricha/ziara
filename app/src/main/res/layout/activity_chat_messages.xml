@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activities.chat.ChatMessagesActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messageListRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sendLayout"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/sendLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mediaListRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/textMessage"
+                android:layout_weight="0.8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="message..."
+                android:background="@drawable/reg_edittext_style"/>
+
+            <Button
+                android:id="@+id/addImgBtn"
+                android:layout_weight="0.05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="images"
+                android:background="@drawable/verification_btn_style"/>
+
+            <Button
+                android:id="@+id/sendTxtBtn"
+                android:layout_weight="0.15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="send"
+                android:background="@drawable/verification_btn_style"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
